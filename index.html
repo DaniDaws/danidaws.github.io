@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Danielle Dawson | Software Developer</title>
+
+    <meta
+      name="description"
+      content="Software developer specialising in frontend engineering, UI/UX, solution design, backend development, and SQL-backed systems."
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#070b14" />
+
+    <link rel="canonical" href="https://danidaws.github.io/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Danielle Dawson | Software Developer" />
+    <meta
+      property="og:description"
+      content="Software developer specialising in frontend engineering, UI/UX, solution design, backend development, and SQL-backed systems."
+    />
+    <meta property="og:url" content="https://danidaws.github.io/" />
+    <meta
+      property="og:image"
+      content="https://danidaws.github.io/social-preview.svg"
+    />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Danielle Dawson | Software Developer" />
+    <meta
+      name="twitter:description"
+      content="Software developer specialising in frontend engineering, UI/UX, solution design, backend development, and SQL-backed systems."
+    />
+    <meta
+      name="twitter:image"
+      content="https://danidaws.github.io/social-preview.svg"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <script>
+      (() => {
+        try {
+          const saved = localStorage.getItem("portfolio-theme");
+          const systemDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+          ).matches;
+          const theme = saved || (systemDark ? "dark" : "light");
+
+          document.documentElement.setAttribute("data-theme", theme);
+          document.documentElement.style.colorScheme = theme;
+        } catch {
+          document.documentElement.setAttribute("data-theme", "dark");
+          document.documentElement.style.colorScheme = "dark";
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

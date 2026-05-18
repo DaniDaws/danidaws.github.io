@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Danielle DAWSON favicon</title>
+  <defs>
+    <linearGradient id="grad" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#79E7FF" />
+      <stop offset="60%" stop-color="#9B8CFF" />
+      <stop offset="100%" stop-color="#87F6C7" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="28" fill="#070B14" />
+  <rect x="10" y="10" width="108" height="108" rx="24" fill="none" stroke="url(#grad)" stroke-width="4" />
+  <path d="M34 32h20c24 0 40 12 40 32s-16 32-40 32H34zM52 48v32h4c11 0 20-5 20-16s-9-16-20-16zm22-16h20v64H74z" fill="url(#grad)"/>
+</svg>
